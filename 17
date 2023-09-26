@@ -1,0 +1,93 @@
+Instructions
+
+Please click on the blue “Work in Browser” button above. When the VSCode User Interface (UI) opens, open the README.md file in Preview mode and follow the instructions. To view the README.md file in Preview mode, right click on the README.md file and choose “Open Preview” as shown below:
+
+To complete this assessment:
+
+Save your file through File -> Save
+Select “Submit Assignment” in your Lab toolbar.
+To your view the rendered HTML in a Web Page follow the step by step instructions below:
+
+Step 1: Save the file.
+
+Step 2: Click on ‘Go live’ at the bottom right of your editor.
+
+Click on Go Live
+Once the server is up and running you’ll see the exposed port.
+Exposed port
+Step 3: Click on browser preview.
+
+Click on browser preview
+Step 4: Enter the url as http://localhost:<exposed port>
+
+Enter the URL
+Step 5: Check that the web page displays.
+
+After completing your lab, don’t forget to close the server. You can close the server by clicking on the exposed Port number (e.g. 5500) after completing the lab.
+
+Exposed port
+You should see a notification like this which confirms the server has been stopped. Notification that the server is now offline
+
+ 
+
+Programming Assignment: Create and style a webpage Solution
+HTML File..
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <h1>Sachin Verma</h1>
+    </div>
+    <div>
+        <img src="photo.jpg" alt="image" id="photo">
+    </div>
+    <div>
+        <h2 id="artists">Favorite Music Artists</h2>
+        <ul>
+            <li>Alan Walker</li>
+            <li>Taylor swift</li>
+            <li>Harry Styles</li>
+            <li>One Republic</li>
+            <li>Charlie Puth</li>
+        </ul>
+    </div>
+    <div>
+        <h2 id="films">Favorite Films</h2>
+        <ol>
+            <li>Minions</li>
+            <li>Suicide Squad</li>
+            <li>Battleship</li>
+            <li>Batman v Superman: Dawn of Justice</li>
+            <li>Iron Man</li>
+        </ol>
+    </div>
+    <div>
+        <a href="https://www.meta.com/">My Profile</a>
+    </div>
+</body>
+</html>
+ 
+
+CSS File..
+
+#photo{
+    border: 2px blue solid;
+}
+h1{
+    color: blue;
+}
+h2{
+    color: gray;
+}
+div{
+    margin: 4px;
+}
+ 
